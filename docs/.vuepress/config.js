@@ -97,6 +97,14 @@ module.exports = {
 							[
 								"/process/overview",
 								"概览"
+							],
+							[
+								"/process/ios-start",
+								"IOS启动流程"
+							],
+							[
+								"/process/android-start",
+								"Android启动流程"
 							]
 						]
 					},
