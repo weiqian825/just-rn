@@ -3,11 +3,18 @@
 那么一个JS的代码如何一步步加载进APP？本节我们一起来看看IOS里面是如何启动RN的。
 
 ## RN启动步骤
-运行react-native run-ios
 
+
+<img src="../images/RN-start.png" alt="react-native start">
+
+- start函数源代码
+
+<img src="../images/rn-start-code.png" alt="start code">
+
+## Xcode配置
+运行react-native run-ios
 <img src="../images/run-start.png" alt="react-native start">
 <img src="../images/load-bundle.png" alt="JS Bundle Load">
-<img src="../images/rn-start-code.png" alt="start code">
 
 
 ## 参考资料
