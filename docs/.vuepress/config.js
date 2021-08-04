@@ -118,7 +118,23 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第五章 RN通信原理",
+						"title": "第五章 热更新流程",
+						"children": [
+							[
+								"/hotreload/overview",
+								"概览"
+							]
+						]
+					},
+
+				]
+			},
+			{
+				"title": "原理篇",
+				"collapsable": true,
+				"children": [
+					{
+						"title": "第六章 RN通信原理",
 						"children": [
 							[
 								"/communication/overview",
@@ -127,7 +143,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第六章 RN线程管理",
+						"title": "第七章 RN线程管理",
 						"children": [
 							[
 								"/thread/overview",
@@ -136,22 +152,21 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第七章 RN VS 小程序",
+						"title": "第八章 RN VS 小程序",
 						"children": [
 							[
 								"/compare/overview",
 								"概览"
 							]
 						]
-					},
-				]
+					}]
 			},
 			{
 				"title": "实现篇",
 				"collapsable": true,
 				"children": [
 					{
-						"title": "第八章 Fabric",
+						"title": "第九章 Fabric",
 						"children": [
 							[
 								"/fabric/overview",
@@ -160,7 +175,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第九章 Turbo Modules",
+						"title": "第十章 Turbo Modules",
 						"children": [
 							[
 								"/turbo/overview",
@@ -169,7 +184,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第十章 JSCore(JavaScript VM)",
+						"title": "第十一章 JSCore(JavaScript VM)",
 						"children": [
 							[
 								"/jscore/overview",
@@ -177,7 +192,7 @@ module.exports = {
 							]
 						]
 					},
-					
+
 				]
 			},
 		]
