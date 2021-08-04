@@ -88,11 +88,20 @@ module.exports = {
 				]
 			},
 			{
-				"title": "架构篇",
+				"title": "流程篇",
 				"collapsable": true,
 				"children": [
 					{
-						"title": "第三章 RN启动流程",
+						"title": "第三章 打包流程",
+						"children": [
+							[
+								"/build/overview",
+								"概览"
+							]
+						]
+					},
+					{
+						"title": "第四章 RN启动流程",
 						"children": [
 							[
 								"/process/overview",
@@ -109,7 +118,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第四章 RN通信原理",
+						"title": "第五章 RN通信原理",
 						"children": [
 							[
 								"/communication/overview",
@@ -118,7 +127,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第五章 RN线程管理",
+						"title": "第六章 RN线程管理",
 						"children": [
 							[
 								"/thread/overview",
@@ -127,7 +136,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第六章 RN VS 小程序",
+						"title": "第七章 RN VS 小程序",
 						"children": [
 							[
 								"/compare/overview",
@@ -142,7 +151,7 @@ module.exports = {
 				"collapsable": true,
 				"children": [
 					{
-						"title": "第五章 Fabric",
+						"title": "第八章 Fabric",
 						"children": [
 							[
 								"/fabric/overview",
@@ -151,7 +160,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第六章 Turbo Modules",
+						"title": "第九章 Turbo Modules",
 						"children": [
 							[
 								"/turbo/overview",
@@ -160,7 +169,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第七章 JSCore(JavaScript VM)",
+						"title": "第十章 JSCore(JavaScript VM)",
 						"children": [
 							[
 								"/jscore/overview",
@@ -168,15 +177,7 @@ module.exports = {
 							]
 						]
 					},
-					{
-						"title": "第八章 Metro (JS Bundler)",
-						"children": [
-							[
-								"/metro/overview",
-								"概览"
-							]
-						]
-					}
+					
 				]
 			},
 		]

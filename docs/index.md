@@ -34,9 +34,17 @@
 
 ✅  总结
 
-#### 架构篇
+#### 流程篇
+
+✅  RN打包流程
 
 ✅  RN启动流程
+
+✅  热更新流程
+
+#### 原理篇
+
+✅  RN Modules加载原理
 
 ✅  RN通信原理
 
@@ -54,4 +62,6 @@
 ✅  JSCore(JavaScript VM)
 
 ✅  Metro(JS Bundler)
+
+
 
