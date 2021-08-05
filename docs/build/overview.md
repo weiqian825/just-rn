@@ -12,11 +12,10 @@
 
 ## 生成包分析
 
-- var 声明层: 对当前运行环境, bundle 启动时间，以及进程相关信息;
-- polyfill 层: !(function(r){}) , 定义了对 define（__d）、 require（__r）、clear（__c） 的支持，以及 module（react-native 及第三方 dependences 依赖的 module） 的加载逻辑;
-- 模块定义层: __d 定义的代码块，包括 RN 框架源码 js 部分、自定义 js 代码部分、图片资源信息，供 require 引入使用
-- require 层: r 定义的代码块，找到 d 定义的代码块 并执行
-
+- var 声明的全局变量，对当前运行环境的定义和 Process 进程环境相关信息；
+- (function() { })() 闭包中定义的代码块，其中定义了对 define（__d）、  require（__r）、clear（__c） 的支持，以及 module（react-native 及第三方 dependences 依赖的 module） 的加载逻辑；
+- __d 定义的代码块，包括 RN 框架源码 js 部分、自定义 js 代码部分、图片资源信息，最后以 require 方式引入使用；
+- require 定义的代码块，找到 __d 定义的代码块并执行，其中require中的数字即为 __d定义行中最后出现的那个数字。
 
 
 ## 参考资料

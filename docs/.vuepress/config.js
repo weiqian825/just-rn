@@ -118,7 +118,7 @@ module.exports = {
 						]
 					},
 					{
-						"title": "第五章 热更新流程",
+						"title": "第五章 RN热更新流程",
 						"children": [
 							[
 								"/hotreload/overview",
