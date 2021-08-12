@@ -11,15 +11,11 @@
 
 <img src="../images/hotreload.png" alt="start code">
 
-## 差量热更新具体实现
+## 热更新具体实现
 
-方案一: 将jsbundle做拆分，分为common + business。
-优点: 适合大公司业务特别多，抽离公共部分。
-缺点: 并没有做到绝对的差量更新，公共代码和业务代码没有完全抽离公共部分。
+分包: 将jsbundle做拆分，分为common + business
 
-方案二: 新老jsbundle做diff得出patch部分，客户端下载patch得出新的包。
-优点: 做到真正的差量更新。
-缺点: 真实的公司场景，包非常的多且大，查分的失败率高，复杂场景很容易瓶颈。
+差分: 新老jsbundle做diff得出patch部分，客户端下载patch得出新的包。
 
 
 ## 参考资料

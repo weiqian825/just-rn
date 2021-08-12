@@ -76,6 +76,10 @@ module.exports = {
 						"title": "第二章 前置知识",
 						"children": [
 							[
+								"/preparation/code",
+								"RN代码学习"
+							],
+							[
 								"/preparation/ios",
 								"ios"
 							],
